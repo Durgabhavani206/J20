@@ -1,0 +1,31 @@
+.mystyle{
+    color: rgb(10, 12, 171);
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.myInfo{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+   position: absolute;/*to get at the center*/
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);/*to place element at center we decrease -50%height and width*/
+   /*allocate a space on all 4 sides*/
+   padding: 10px;
+   box-shadow: -2px 5px 10px 10px lightpink;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    position: relative;/*absolute means it can move on entire screen and relative means can move on particular division*/
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50px;/*to get the picture in round shape*/
+}
+/*Increasing height of table row,for commands like tr,td,h,p,etc we dont need to use classname and .*/
+tr{
+    height: 30px;
+}
