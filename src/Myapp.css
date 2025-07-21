@@ -15,7 +15,7 @@
    transform: translate(-50%, -50%);/*to place element at center we decrease -50%height and width*/
    /*allocate a space on all 4 sides*/
    padding: 10px;
-   box-shadow: -2px 5px 10px 10px lightpink;
+   box-shadow: -2px 5px 10px 10px rgb(227, 133, 147);
 }
 .photo{
     width: 100px;
